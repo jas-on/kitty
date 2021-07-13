@@ -49,6 +49,7 @@ def remove_markup(text: str) -> str:
                 'layouts': f'{base}/overview/#layouts',
                 'sessions': f'{base}/overview/#sessions',
                 'functional': f'{base}/keyboard-protocol/#functional-key-definitions',
+                'shell_integration': f'{base}/shell-integration/',
             }[m.group(2)]
         return str(m.group(2))
 
